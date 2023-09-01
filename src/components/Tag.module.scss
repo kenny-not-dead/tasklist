@@ -1,0 +1,29 @@
+@mixin tag {
+  font-size: 12px;
+  font-weight: 600;
+  height: 20px;
+  padding: 2px 6px ;
+}
+
+
+.purple{
+  @include tag;
+  border-radius: 4px;  
+  background: #B233A6;
+  p{
+    margin: auto 0;
+    color: white;
+  }
+}
+
+.grey{
+  @include tag;
+  padding-right: 10px;
+  border-radius: 4px 16px 16px 4px;  
+  background: #EBEEF6;
+  p{
+   margin: auto 0;
+   color: #616C82;
+  }
+
+}
